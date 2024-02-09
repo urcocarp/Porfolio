@@ -16,10 +16,10 @@ const NavBar =()=>{
         <div className={style.navContent}>
          <ul>
             <li>
-              <a className={style.menuIt} href={<Hero/>}>Home</a> 
+              <a className={style.menuIt}>Home</a> 
             </li>
             <li>
-              <a className={style.menuIt} href={<Skills/>}>Skils</a> 
+              <a className={style.menuIt}>Skils</a> 
             </li>
             <li>
               <a className={style.menuIt}>Work Experience</a> 
