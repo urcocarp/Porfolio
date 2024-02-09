@@ -30,7 +30,7 @@ const NavBar =()=>{
              Hire me
             </button>
          </ul>
-         <button class={style.btn} onClick={toggleMenu}>
+         <button class={style.btn}>
             <span 
             class={"material-symbols-outlined"}
             style={{fontSize:"1.8rem"}}
