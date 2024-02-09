@@ -1,0 +1,69 @@
+.heroContainer{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.heroContainer::after,
+.heroContainer::before{
+content: " ";
+width: 28.125rem;
+height: 28.125rem;
+border-radius: 28.125rem;
+background: #7d66e3bb;
+position: absolute;
+z-index: -1;
+filter: blur(225px);
+}
+.heroContainer::after{
+    top: -3rem;
+    left: -5rem;
+}
+.heroContainer::before{
+    bottom: 2rem;
+    right: 0rem;
+}
+.heroContent{
+    flex:1;
+}
+.heroContent h2{ 
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+}
+.heroContent p{
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+.img {
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    border-radius: 15px;
+    
+}
+.img > div{
+   
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.icon{
+    margin-right: 10px;
+}
+.icon img{
+    width: 3rem;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.img > div > img:hover,
+.icon img:hover{
+    transform: translateX(-0.5rem);
+}
