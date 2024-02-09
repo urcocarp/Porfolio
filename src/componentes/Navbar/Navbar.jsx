@@ -4,13 +4,10 @@ import MobileNav from "../MobileNav/MobileNav";
 
 
 const NavBar =()=>{
-    const [openMenu, setOpenMenu]= useState(false);
-    const toggleMenu=()=>{
-        setOpenMenu(!openMenu);
-    }
+    
     return ( 
     <>
-    <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
+    <MobileNav/>
       <nav className={style.nav}>
         <div className={style.navContent}>
          <ul>
@@ -26,15 +23,14 @@ const NavBar =()=>{
             <li>
               <a className={style.menuIt}>Contact Me</a> 
             </li>
-            <button className={style.contactMe} onClick={()=>{}}>
+            <button className={style.contactMe}>
              Hire me
             </button>
          </ul>
          <button class={style.btn}>
             <span 
             class={"material-symbols-outlined"}
-            style={{fontSize:"1.8rem"}}
-            >{openMenu ? "close": "menu"}
+            >
             </span>
          </button>
         </div>
