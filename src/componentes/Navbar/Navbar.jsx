@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import style from './NavBar.module.css'
 import MobileNav from "../MobileNav/MobileNav";
-import Hero from "../Hero/Hero";
-import Skills from "../Skills/Skills";
+
 
 const NavBar =()=>{
     const [openMenu, setOpenMenu]= useState(false);
