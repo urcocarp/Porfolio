@@ -12,7 +12,7 @@ const ContacMe =()=>{
        <section className={style.contacContainer}>
         <h5>Contactame</h5>
         <div className={style.contacContent}>
-            <div style={{flex:1}}>
+            <div>
             
                 <ContacInfoCard 
                 iconUrl={iconEmail}
@@ -29,7 +29,7 @@ const ContacMe =()=>{
             </div>
             </div>
 
-            <div style={{ flex:1 }}>
+            <div>
               <ContacForm/>
             </div>
 

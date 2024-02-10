@@ -1,11 +1,13 @@
 .contacContainer{
+    display: flex;
+    justify-content: center;
     margin: 4rem 0;
     position: relative;
 }
 .contacContainer h5{
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 3rem;
+    
 }
 .contacContent{
     display: flex;

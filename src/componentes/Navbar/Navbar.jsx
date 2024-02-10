@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from './NavBar.module.css'
+import style from './Navbar.module.css'
 import MobileNav from "../MobileNav/MobileNav";
 
 
@@ -15,10 +15,11 @@ const NavBar =()=>{
               <a className={style.menuIt}>Home</a> 
             </li>
             <li>
-              <a className={style.menuIt}>Skils</a> 
+              <a className={style.menuIt} href="#Skills">Skils</a> 
             </li>
             <li>
-              <a className={style.menuIt}>Work Experience</a> 
+        
+              <a className={style.menuIt}href="#Experience">Work Experience</a> 
             </li>
             <li>
               <a className={style.menuIt}>Contact Me</a> 

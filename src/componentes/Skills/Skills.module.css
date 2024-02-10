@@ -1,22 +1,32 @@
 .skillscontainer{
-    margin: 4rem 0;
+   display: flex;
+    margin: 4rem 4rem;
     position: relative;
+    flex-wrap: wrap;
+    gap: 3rem;
 }
 .skillscontainer h5{
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 3.5rem;
+   
+
 }
 .skillsContent{
+
     display: flex;
-    align-items:flex-start;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 3rem;
+ 
+    
 }
 .skills{
-    flex: 1;
-    display: grid;
-    grid-gap: 3rem;
-    grid-template-columns: repeat(2,1fr);
+   
+   flex:1;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 3rem;
 
 
 }

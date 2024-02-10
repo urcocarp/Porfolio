@@ -61,8 +61,9 @@ export const WORK_EXPERIENCE=[
         desempeño:[
             "Proyecto individual-Practica y creatividad",
            " Practica de proyecto E-commerce, sobre productos de mercados de ropa poniendo en prácticas tecnologías ya vistas como React, Redux y abriendo conocimiento a tecnologías nuevas como Bootstrap para desarrollo de Front end",
-            "Además, usando diferentes tecnologías ya mencionadas como Firebase,para control de accesos con Google y Facebook y Vue.js para el desarrollo de carrito de compras"
-    ],
+            "Además, usando diferentes tecnologías ya mencionadas como Firebase,para control de accesos con Google y Facebook y Vue.js para el desarrollo de carrito de compras",
+            "Aun no deployado",
+        ],
 
     
     
@@ -97,7 +98,10 @@ export const WORK_EXPERIENCE=[
     desempeño:[
         "Proyecto académico- Soy Henry",
         "En este proyecto se realizaron desarrollos de front-end y back-end, sobre personajes de Rick And Morty empezando aplicar las tecnologías estudiadas.",
-        " Html,Css, React, Redux,Express, Axios, Cors, Morgan, Node.js, SQL,Postgres"
+        " Html,Css, React, Redux,Express, Axios, Cors, Morgan, Node.js, SQL,Postgres",
+        "Etapa bootcamp aprendizaje, teoria y practica",
+        "Utilizando endpoind, base de datos, creacion de back end y fron end",
+        "No deployado, solamente practica",
         
         ]
 }

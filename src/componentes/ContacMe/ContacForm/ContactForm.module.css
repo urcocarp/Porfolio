@@ -1,5 +1,7 @@
 .FormContent{
     width: 100%;
+    margin-left: 4rem;
+    margin-top: 6rem;
 }
 form{
     display: flex;

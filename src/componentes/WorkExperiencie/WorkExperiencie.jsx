@@ -31,7 +31,7 @@ const WorkExperiencie =()=>{
         sliderRef.current.slickPrev()
     }
     return(
-        <section className={style.experiencieContainer}>
+        <section className={style.experiencieContainer} id="Experience">
             <div>Work Experiencie</div>
             <div className={style.experienceContent}>
                 <div className={style.arrowRight} onClick={slideRight}> 
