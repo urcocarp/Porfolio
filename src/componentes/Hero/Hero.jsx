@@ -9,7 +9,7 @@ import sql from "../../assets/file_type_sql_icon_130152.png"
 
 const Hero =()=>{
     return(
-    <section className={style.heroContainer}>
+    <section className={style.heroContainer} id="Home">
         <div className={style.heroContent}>
             <h2>Construyendo experiencias digitales que inspiren</h2>
             <p>Desarrollador apasionado | Transformando ideas en soluciones web fluidas y visualmente impresionantes

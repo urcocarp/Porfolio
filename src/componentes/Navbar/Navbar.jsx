@@ -12,7 +12,7 @@ const NavBar =()=>{
         <div className={style.navContent}>
          <ul>
             <li>
-              <a className={style.menuIt}>Home</a> 
+              <a className={style.menuIt} href="#Home">Home</a> 
             </li>
             <li>
               <a className={style.menuIt} href="#Skills">Skils</a> 
