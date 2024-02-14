@@ -14,18 +14,23 @@ const ContacMe =()=>{
         <div className={style.contacContent}>
             <div>
             
-                <ContacInfoCard 
+            <ContacInfoCard 
                 iconUrl={iconEmail}
-                text="urcocarp1986.nr@gmail.com"/>
+                text="urcocarp1986.nr@gmail.com"
+                href="urcocarp1986.nr@gmail.com"/>
               
             <ContacInfoCard
                 iconUrl={iconGitHub}
                 text="https://github.com/urcocarp"
+                href="https://github.com/urcocarp"
                 />
                 
             <ContacInfoCard
                 iconUrl={iconLink}
-                text="https://linkedin.com/in/nicolas-rodriguez"/>
+                text="https://linkedin.com/in/nicolas-rodriguez"
+                href="https://linkedin.com/in/nicolas-rodriguez-326494258"
+                
+                />
             </div>
             </div>
 

@@ -2,13 +2,15 @@ import React from "react";
 import style from "./ContacInfoCard.module.css"
 
 
-const ContacInfoCard= ({iconUrl, text})=>{
+const ContacInfoCard= ({iconUrl, href, text})=>{
     return(
         <div className={style.ContacDetailsCard}>
          <div className={style.icon}>
           <img  src={iconUrl}/>
          </div>
-         <p>{text}</p>
+         <a href={href} target="_blank" rel="noopener noreferrer">
+        {text}
+      </a>
 
 
         </div>
