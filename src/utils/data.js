@@ -81,7 +81,7 @@ export const WORK_EXPERIENCE=[
 },
 {
     
-    title: "Desarrollador full stack Developer",
+    title: "Desarrollador full stack Developer https://countries-pi-omega.vercel.app/",
     date:"Junio 2023- Octubre 2023",
     desempeño:[
         "Proyecto académico individual- Soy Henry -CountryPI",
