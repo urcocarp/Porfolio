@@ -70,6 +70,7 @@ export const WORK_EXPERIENCE=[
 },
 {
     title: "Desarrollador Front-end",
+    link:"https://fit-revolution-develop.vercel.app/",
     date: "Noviembre 2023- Diciembre 2023",
     desempeño:[
         " Proyecto académico grupal -Soy Henry",
@@ -81,7 +82,8 @@ export const WORK_EXPERIENCE=[
 },
 {
     
-    title: "Desarrollador full stack Developer https://countries-pi-omega.vercel.app/",
+    title: "Desarrollador full stack Developer",
+    link:"https://countries-pi-omega.vercel.app/",
     date:"Junio 2023- Octubre 2023",
     desempeño:[
         "Proyecto académico individual- Soy Henry -CountryPI",

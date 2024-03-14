@@ -28,7 +28,7 @@ const ContacMe =()=>{
             <ContacInfoCard
                 iconUrl={iconLink}
                 text="https://linkedin.com/in/nicolas-rodriguez"
-                href="https://linkedin.com/in/nicolas-rodriguez-326494258"
+                href="https://linkedin.com/in/nico-rodriguez86"
                 
                 />
             </div>

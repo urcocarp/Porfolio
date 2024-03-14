@@ -22,7 +22,7 @@ const NavBar =()=>{
               <a className={style.menuIt}href="#Experience">Work Experience</a> 
             </li>
             <li>
-              <a className={style.menuIt}>Contact Me</a> 
+              <a className={style.menuIt}href="#ContacMe">Contact Me</a> 
             </li>
             <button className={style.contactMe}>
              Hire me
