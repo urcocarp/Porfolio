@@ -4,7 +4,15 @@ import MobileNav from "../MobileNav/MobileNav";
 
 
 const NavBar =()=>{
-    
+  const handleDownloadClick=()=>{
+
+    const link= document.createElement('a')
+    link.href= '/public/CVNico-Rodriguez-Actual16(1)';
+    link.download='CVNico-Rodriguez-Actual16(1)';
+    document.body.appendChild(link);
+    link.click()
+    // document.body.removeChild(link);
+  };
     return ( 
     <>
     <MobileNav/>
@@ -24,8 +32,8 @@ const NavBar =()=>{
             <li>
               <a className={style.menuIt}href="#ContacMe">Contact Me</a> 
             </li>
-            <button className={style.contactMe}>
-             Hire me
+            <button className={style.contactMe} onClick={handleDownloadClick}>
+             DownloadCV
             </button>
          </ul>
          <button class={style.btn}>
