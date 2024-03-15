@@ -9,7 +9,7 @@ import ContacForm from "./ContacForm/ContactForm";
 
 const ContacMe =()=>{
     return(
-       <section className={style.contacContainer}>
+       <section className={style.contacContainer} id="ContacMe">
         <h5>Contactame</h5>
         <div className={style.contacContent}>
             <div>
