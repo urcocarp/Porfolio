@@ -11,7 +11,7 @@ const NavBar =()=>{
     link.download='CVNico-Rodriguez-Actual16(1)';
     document.body.appendChild(link);
     link.click()
-    // document.body.removeChild(link);
+    document.body.removeChild(link);
   };
     return ( 
     <>
