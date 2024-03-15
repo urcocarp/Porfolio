@@ -7,11 +7,11 @@ const NavBar =()=>{
   const handleDownloadClick=()=>{
 
     const link= document.createElement('a')
-    link.href= '/public/CVNico-Rodriguez-Actual16(1)';
-    link.download='CVNico-Rodriguez-Actual16(1)';
-    document.body.appendChild(link);
+    link.href= '/CVNico.pdf';
+    link.download='CVNico.pdf';
+    // document.body.appendChild(link);
     link.click()
-    document.body.removeChild(link);
+  //   document.body.removeChild(link);
   };
     return ( 
     <>

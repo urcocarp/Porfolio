@@ -17,7 +17,7 @@ const ContacMe =()=>{
             <ContacInfoCard 
                 iconUrl={iconEmail}
                 text="urcocarp1986.nr@gmail.com"
-                href="urcocarp1986.nr@gmail.com"/>
+                href="mailto:urcocarp1986.nr@gmail.com"/>
               
             <ContacInfoCard
                 iconUrl={iconGitHub}
