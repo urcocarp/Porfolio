@@ -7,8 +7,8 @@ const NavBar =()=>{
   const handleDownloadClick=()=>{
 
     const link= document.createElement('a')
-    link.href= '/CVNico.pdf';
-    link.download='CVNico.pdf';
+    link.href= '/Nico04.pf';
+    link.download='Nico04.pdf';
     // document.body.appendChild(link);
     link.click()
   //   document.body.removeChild(link);
