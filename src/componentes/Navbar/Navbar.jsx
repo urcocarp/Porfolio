@@ -9,9 +9,9 @@ const NavBar =()=>{
     const link= document.createElement('a')
     link.href= '/Nico04.pdf';
     link.download='Nico04.pdf';
-    document.body.appendChild(link);
+    // document.body.appendChild(link);
     link.click()
-    document.body.removeChild(link);
+    // document.body.removeChild(link);
   };
     return ( 
     <>
