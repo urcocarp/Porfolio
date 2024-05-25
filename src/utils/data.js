@@ -70,19 +70,6 @@ export const WORK_EXPERIENCE=[
     
     
 },
-    {
-        title: "Desarrollador full stack Developer",
-        date: "Enero 2024- Presente",
-        desempeño:[
-            "Proyecto individual-Practica y creatividad",
-           " Practica de proyecto E-commerce, sobre productos de mercados de ropa poniendo en prácticas tecnologías ya vistas como React, Redux y abriendo conocimiento a tecnologías nuevas como Bootstrap para desarrollo de Front end",
-            "Además, usando diferentes tecnologías ya mencionadas como Firebase,para control de accesos con Google y Facebook y Vue.js para el desarrollo de carrito de compras",
-            "Aun no deployado",
-        ],
-
-    
-    
-},
 {
     title: "Desarrollador Front-end",
     link:"https://fit-revolution-develop.vercel.app/",
@@ -107,6 +94,19 @@ export const WORK_EXPERIENCE=[
         "Se creo una base de datos, y se desarrollo el proyecto de forma individual donde se volvieron a utilizar y evaluar las tecnologias aprendidas",
         "React, Redux, Html, Css, Node.js, SQL, Postgress"
     ],
+},
+{
+    title: "Desarrollador full stack Developer",
+    date: "Enero 2024- Presente",
+    desempeño:[
+        "Proyecto individual-Practica y creatividad",
+       " Practica de proyecto E-commerce, sobre productos de mercados de ropa poniendo en prácticas tecnologías ya vistas como React, Redux y abriendo conocimiento a tecnologías nuevas como Bootstrap para desarrollo de Front end",
+        "Además, usando diferentes tecnologías ya mencionadas como Firebase,para control de accesos con Google y Facebook y Vue.js para el desarrollo de carrito de compras",
+        "Aun no deployado",
+    ],
+
+
+
 },
 {
     
