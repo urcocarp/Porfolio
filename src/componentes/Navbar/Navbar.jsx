@@ -27,13 +27,13 @@ const NavBar =()=>{
             </li>
             <li>
         
-              <a className={style.menuIt}href="#Experience">Work Experience</a> 
+              <a className={style.menuIt}href="#Experience">Experiencia</a> 
             </li>
             <li>
-              <a className={style.menuIt}href="#ContacMe">Contact Me</a> 
+              <a className={style.menuIt}href="#ContacMe">Contacto</a> 
             </li>
             <button className={style.contactMe} onClick={handleDownloadClick}>
-             DownloadCV
+             Descarga CV
             </button>
          </ul>
          <button class={style.btn}>
