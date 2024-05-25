@@ -57,6 +57,21 @@ export const SKILLS=[
 export const WORK_EXPERIENCE=[
     {
         title: "Desarrollador full stack Developer",
+        link: "https://ecomarket-nine.vercel.app/",
+        date: "Enero 2024- Presente",
+        desempeño:[
+            "Proyecto ecomarket",
+            "Proyecto E-commerce,es una tienda en línea que ofrece una amplia variedad de prendas sostenibles, fabricadas con materiales orgánicos y reciclados ",
+            "Nuestra misión es transformar la industria de la moda, promoviendo prácticas responsables y éticas.",
+            "Usando tecnología React.js para el desarrollo de interfaz de usuario.",
+            "Metodologias Scrum, Agile",
+        ],
+
+    
+    
+},
+    {
+        title: "Desarrollador full stack Developer",
         date: "Enero 2024- Presente",
         desempeño:[
             "Proyecto individual-Practica y creatividad",
